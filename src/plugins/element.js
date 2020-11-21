@@ -1,0 +1,101 @@
+import Vue from "vue";
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  Carousel,
+  CarouselItem,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Submenu,
+  Menu,
+  MenuItem,
+  Select,
+  OptionGroup,
+  Option,
+  DatePicker,
+  TabPane,
+  Tabs,
+  Backtop,
+  Icon,
+  Container,
+  Header,
+  Main,
+  Aside,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Tooltip,
+  Pagination,
+  Dialog,
+  MessageBox,
+  Tag,
+  Switch,
+  Upload,
+  InputNumber,
+  Popover,
+  PageHeader,
+  Checkbox,
+  CheckboxButton,
+  CheckboxGroup,
+  Radio,
+  RadioGroup,
+  RadioButton,
+} from "element-ui";
+
+Vue.use(Switch);
+Vue.use(Tag);
+Vue.use(Dialog);
+Vue.use(Pagination);
+Vue.use(Tooltip);
+Vue.use(Table);
+Vue.use(TableColumn);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Card);
+Vue.use(Breadcrumb);
+Vue.use(BreadcrumbItem);
+Vue.use(Main);
+Vue.use(Header);
+Vue.use(Aside);
+Vue.use(Container);
+Vue.use(Icon);
+Vue.use(Backtop);
+Vue.use(Tabs);
+Vue.use(TabPane);
+Vue.use(Button);
+Vue.use(Form);
+Vue.use(FormItem);
+Vue.use(Input);
+Vue.use(Carousel);
+Vue.use(CarouselItem);
+Vue.use(Dropdown);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(Submenu);
+Vue.use(Menu);
+Vue.use(MenuItem);
+Vue.use(Select);
+Vue.use(Option);
+Vue.use(OptionGroup);
+Vue.use(DatePicker);
+Vue.use(Upload);  
+Vue.use(InputNumber); 
+Vue.use(Popover);
+Vue.use(PageHeader);
+Vue.use(Checkbox);
+Vue.use(CheckboxButton);
+Vue.use(CheckboxGroup);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(RadioButton);
+// 挂载成组件的原型属性
+Vue.prototype.$message = Message;
+Vue.prototype.$confirm = MessageBox.confirm;
